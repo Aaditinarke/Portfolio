@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+   
+   *{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+    background-color:azure ;
+}
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:25px 10px;
+}
+.logo{
+    color: rgba(14, 0, 0, 0.43);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 27px;
+    cursor: default;
+      
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:rgba(14, 0, 0, 0.43);
+    padding: 0px 16px;
+    font-weight: 600;
+    transition: 0.3s all;
+    animation: navMenu 1s ease forwards;
+   
+}
+.navbar a hover,
+.navbar a :active{
+    color:aqua;
+
+}   
+.hero-container{
+    display: flex;
+    padding: 25px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.info-side h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin:10px 0;
+    letter-spacing: 1px;
+}
+.info-side h1 span{
+    font-size: 75px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.info-side h3 span{
+    color:rgb(56, 111, 111);
+}
+p{
+    line-height: 27px;
+    margin:20px 0px 40px 0px;
+}
+.hero-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    animation: slideleft 1s ease forwards; 
+     margin-left: 50px; 
+
+}
+i{
+    position: relative;
+    border:2px solid ;
+    padding:10px ;
+    border-radius: 50%;
+    margin:0px 8px;
+    transition: 0.3ms;
+}
+i:hover{
+    box-shadow: 0 0 20px #0ef;
+
+}
+.button1{
+    background-color:indigo;
+    margin-top:50px;
+    padding: 10px 20px;
+    border: none;
+    font-size:20px ;
+   font-weight: 300;
+   border-radius: 5%;
+   cursor: pointer;
+   transition: 0.3s;
+   box-shadow: 0 0 #0ef 15px;
+   margin-top: 100px;
+   color: white;
+}
+.button2{
+    background-color:indigo;
+    color: white;
+    margin-top:50px;
+    padding: 10px 20px;
+    border: none;
+    font-size:20px ;
+   font-weight: 300;
+   border-radius: 5%;
+   margin-left: 40px;
+}
+.logo{
+    color:indigo;
+    size: 20px;
+    font-style:calc();
+} 
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+   
+   *{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+    background-color:azure ;
+}
+body{
+    background-color: rgb(251, 254, 255);
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:25px 10px;
+}
+.logo{
+    color: rgba(14, 0, 0, 0.43);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 27px;
+    cursor: default;
+      
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:rgba(14, 0, 0, 0.43);
+    padding: 0px 16px;
+    font-weight: 600;
+    transition: 0.3s all;
+    animation: navMenu 1s ease forwards;
+   
+}
+.navbar a hover,
+.navbar a :active{
+    color:aqua;
+
+}   
+.hero-container{
+    display: flex;
+    padding: 25px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.info-side h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin:10px 0;
+    letter-spacing: 1px;
+}
+.info-side h1 span{
+    font-size: 75px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.info-side h3 span{
+    color:rgb(56, 111, 111);
+}
+p{
+    line-height: 27px;
+    margin:20px 0px 40px 0px;
+}
+.hero-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    animation: slideleft 1s ease forwards; 
+     margin-left: 50px; 
+
+}
+i{
+    position: relative;
+    border:2px solid ;
+    padding:10px ;
+    border-radius: 50%;
+    margin:0px 8px;
+    transition: 0.3ms;
+}
+i:hover{
+    box-shadow: 0 0 20px #0ef;
+
+}
